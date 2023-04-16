@@ -7,7 +7,8 @@ def fizzbuzz(n):
         print('Buzz')
     else:
         print(n)
+        return n
 
 
-for x in range(1, 47):
+for x in range(1, 47 + 1):
     fizzbuzz(x)
